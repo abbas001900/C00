@@ -8,8 +8,6 @@ read fichier
 # Vérification de l'existance du fichier et s'il est un fichier ordinaire
 if [ -f "$fichier" ]; then # la Condition a respecter
     echo "Le fichier '$fichier' existe" # La commande a effectuer
-else # A defaut
-    echo "Le fichier '$fichier' n'existe pas" # Executer cette commande
 fi # Marque la fin de la condition if
 
 # Rendre le fichier executable
