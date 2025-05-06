@@ -7,7 +7,7 @@ COMMENTAIRE
 
 for item in *; do # condition de la boucle for
         if [ -f "$item" ]; then # condition du if
-                ls "$item" # requete a effectuer si la condition est respecter
+                ls $item # requete a effectuer si la condition est respecter
         fi # marque la fin du if
 done # marque la fin du for
 
