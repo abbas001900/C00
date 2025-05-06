@@ -8,7 +8,9 @@ read fichier
 
 # Vérifie si le fichier existe et s'il est un fichier ordinaire
 if [ -f "$fichier" ]; then  # Condition à vérifier
-    echo "Le fichier '$fichier' existe"  # Action à exécuter si la condition est vraie
+    echo "Le fichier '${fichier}' existe"  # Action à exécuter si la condition est vraie
+else
+    echo "Le fichier '${fichier}' n'existe pas"
 fi  # Fin du bloc conditionnel
 
 # Rendre le fichier executable
