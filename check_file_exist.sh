@@ -1,14 +1,13 @@
-#!/bin/bash # Indique l'interpreteur a utiliser(Pour notre cas bash)
+#!/bin/bash  # Indique l'interpréteur à utiliser (bash)
+
 # Script pour vérifier l'existence d'un fichier
 
-# Ici nous demandons à l'utilisateur de saisir le nom d'un fichier
-echo -n "Entrez le nom du fichier : " #echo -n empeche les retour a la ligne
+# Demande à l'utilisateur de saisir le nom d'un fichier
+echo -n "Entrez le nom du fichier : "  # -n empêche le retour à la ligne
 read fichier
 
-# Vérification de l'existance du fichier et s'il est un fichier ordinaire
-if [ -f "$fichier" ]; then # la Condition a respecter
-    echo "Le fichier '$fichier' existe" # La commande a effectuer
-fi # Marque la fin de la condition if
+# Vérifie si le fichier existe et s'il est un fichier ordinaire
+if [ -f "$fichier" ]; then  # Condition à vérifier
+    echo "Le fichier '$fichier' existe"  # Action à exécuter si la condition est vraie
+fi  # Fin du bloc conditionnel
 
-# Rendre le fichier executable
-chmod +x check_file_exist.sh 
