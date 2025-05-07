@@ -3,8 +3,8 @@
 # Script pour vérifier l'existence d'un fichier
 
 # Demande à l'utilisateur de saisir le nom d'un fichier
-echo "Entrez le nom du fichier :"  # -n empêche le retour à la ligne
-read filename
+echo -n "Entrez le nom du fichier :"  # -n empêche le retour à la ligne
+read filename # Demande le nom
 
 # Vérifie si le fichier existe et s'il est un fichier ordinaire
 if [ -f "$filename" ]; then  # Condition à vérifier

@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-# Nous allons ensuite faire une boucle qui recuperera uniquement
-# les fichiers se trouvant dans le current directory
+# Nous allons faire une boucle qui recuperera uniquement les fichiers se trouvant dans le current directory
 
 for item in *; do # condition de la boucle for
         if [ -f "$item" ]; then # condition du if
