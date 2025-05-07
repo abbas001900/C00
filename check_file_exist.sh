@@ -10,5 +10,5 @@ read filename
 if [ -f "$filename" ]; then  # Condition à vérifier
     echo "Le fichier '$filename' existe."  # Action à exécuter si la condition est vraie
 else # A defaut
-    echo "Le fichier '$filename' n'existe pas" # La commande a executer a defaut 
+    echo "Le fichier '$filename' n'existe pas." # La commande a executer a defaut 
 fi  # Fin du bloc conditionnel
