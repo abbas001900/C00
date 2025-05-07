@@ -1,7 +1,5 @@
-#!/bin/bash # Indique l'interpreteur a utiliser(Pour notre cas bash)
+#!/bin/bash
 
 # creation du dossier 'test_directory'
-mkdir test_directory 
+mkdir -p test_directory 
 
-# Rendre le fichier executable
-chmod +x create_directory.sh

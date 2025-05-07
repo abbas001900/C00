@@ -1,4 +1,4 @@
-#!/bin/bash # Indique l'interpreteur a utiliser(Pour notre cas bash)
+#!/bin/bash
 
 : << 'COMMENTAIRE'
 Nous allons ensuite faire une boucle qui recuperera uniquement
@@ -11,4 +11,3 @@ for item in *; do # condition de la boucle for
         fi # marque la fin du if
 done # marque la fin du for
 
-chmod +x list_files.sh #rendre le fichier executable
