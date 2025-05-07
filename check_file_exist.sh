@@ -10,3 +10,6 @@ read fichier
 if [ -f "$fichier" ]; then  # Condition à vérifier
     echo "Le fichier '$fichier' existe"  # Action à exécuter si la condition est vraie
 fi  # Fin du bloc conditionnel
+
+# Rendre le fichier executable
+chmod +x create_directory.sh
