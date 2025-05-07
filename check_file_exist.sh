@@ -3,7 +3,7 @@
 # Script pour vérifier l'existence d'un fichier
 
 # Demande à l'utilisateur de saisir le nom d'un fichier
-echo -n "Entrez le nom du fichier :"  # -n empêche le retour à la ligne
+echo "Entrez le nom du fichier :"  # -n empêche le retour à la ligne
 read filename
 
 # Vérifie si le fichier existe et s'il est un fichier ordinaire
